@@ -48,7 +48,6 @@
 - Long term maintainability Custom Theme Management 
     - Due to Digital Learning employing student developers their will be different students working on 
       projects and entering and leaving the team
-    
     - The overhead of training an employee to manage the custom theme is much higher than teaching how to use 
       Asset Injector. With poor planning or an emergency it's possible to end up in a position where no one on the 
       team knows how to use the backend of the custom theme. 
