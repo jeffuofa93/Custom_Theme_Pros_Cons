@@ -2,29 +2,28 @@
 
 ## Pros Custom Theme
 
-- Drupal best practice for adding multiple javascript and css files and modules
+- Drupal best practice for adding multiple javascript/css files and modules
 - Allows control and customization for how files load, on which pages and where they loaded in the page
-    - We will understand how the modules are interacting and will be able to debug issues to a degree with support from
-      drupal 9 online resources as custom theming is popular in the drupal community
+    - We will understand how the modules are interacting and will be able to debug issues to a with support from
+      drupal 9 online resources
+      
 - Multi developer workflow improved
     - Allows two developers to work on the same file without causing issues inside Drupal
     - Any changes to files on the site would be well documented via git
+    - 
 - File organization improved
     - Custom theming allows for the storage of js and cs files inside custom files and folders
     - Files are seperated from modules which is valuable distinction not present in asset injector
   
 - Long term maintainability Site Organization
-  - With current MVP of page builder we have 14 js and css files in the Asset Injector, and an undocumented amount of
-    html src imports inside pages. Imagine a mature highly interactive site with a 100+ js and css files it would
-    quickly become unmanageable. We have already felt this stress just with the small number of files in Page Builder.
-    
+  - With current MVP of page builder we have 14 js/css files in the Asset Injector, and an undocumented amount of
+    html src imports inside pages. We have already felt this pressure with the small number of files in Page Builder and it will grow over time.
   - With a custom theme it is organized and easy to maintain and extremely large amount of internal and external 
     javascript/css files and modules
 
 - Design enforcement of best practices
   - With a custom theme there are no alternatives to setting up local dev environments using lando and pushing and 
     pulling changes to the code base which is the ideal configuration for long term stability of the site
-    
   - This functionality is possible with Asset Injector, but it's much easier initially to modify files directly in 
     drupal which creates issues regarding maintainability, site organization, multi developer workflow, and change 
     documentation
